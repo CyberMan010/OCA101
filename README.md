@@ -1,4 +1,4 @@
-# Welcome to Qusai Alsenjalawi's Private Repository
+# Welcome to Mohamad Hasoun's Private Repository
 
 Welcome to my private repository, This repository is my digital diary for the **Orange Coding Academy** journey. Here, you'll find my projects, tasks, and resources neatly organized for easy exploration. Feel free to join me as I navigate through this coding adventure! Here's how this repository is organized for efficient use:
 
@@ -26,6 +26,6 @@ This repository serves as a comprehensive documentation of my progress throughou
 Thank you for entrusting me with your feedback and guidance as I navigate through the Orange Coding Academy bootcamp.
 
 **About Me:**
-- **Name:** Qusai Alsenjalawi
+- **Name:** Mohamad Hasoun
 - **Training:** Orange Coding Academy 
-- **Background:** Graduated from Yarmouk University with a degree in Computer Information Systems. 
+- **Background:** Graduated from High School with a degree in Science. 
