@@ -1,0 +1,43 @@
+body{
+    background-color: #FFFFF1;
+   
+}
+p{
+    background-color:#EAEAED ;
+        width:18em;
+        text-align: justify;
+        
+}
+.frth{
+    overflow:auto;
+    text-align: justify;
+    height: 90px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   
+}
+
+
+.three{
+    display: inline-flex;
+    
+}
+.two{
+    display: inline-flex;
+    
+}
+.ffth{
+    margin-right: 15px;
+}
+
+.scnd{
+    margin-right: 15px;
+}
+.fst{
+    margin-right: 15px;
+   
+    
+}
+main{
+    max-width: 1080px;
+}
