@@ -1,0 +1,16 @@
+.box{
+    grid-area: 1 / 1 / 4 / 2;
+}
+div .header{
+    grid-area: 1 / 2 / 3 / 5;
+    background-color: red;
+  }
+  .footer {
+    grid-area: 1;
+  }
+  .content {
+    grid-area: main;
+  }
+  .sidebar {
+    grid-area: sd;
+  }
