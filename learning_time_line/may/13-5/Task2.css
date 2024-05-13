@@ -1,0 +1,30 @@
+body{
+    background-color: #BAFFFF;
+}
+.list{
+    background-color: #CFD28B;
+    border-radius: 6px;
+    list-style: none;
+    padding: 10px 20px;
+}
+img{
+    width: 140px;
+}
+.list-items{
+    margin-left: 20px;
+    h4, p{
+      margin: 0;
+    }
+    h4{
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    p{
+      margin-top: 5px;
+      color: gray;
+    }
+    align-self: self-start;
+  }
+div .list-items{
+    
+}
