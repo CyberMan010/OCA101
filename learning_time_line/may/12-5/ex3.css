@@ -1,0 +1,41 @@
+.container div{
+    padding: 5px;
+    display: inline-block;
+}
+.container div::after{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    content: "*";
+    text-align: left;
+    font-size: small;
+   
+}
+.container div:nth-child(n+2):nth-child(-n+6)::after{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    content: "x";
+    text-align: left;
+    font-size: small;
+}
+.container div:nth-child(n+5):nth-child(-n+24)::after{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    content: "x";
+    text-align: left;
+    font-size: small;
+}
+.container div:nth-child(n+22):nth-child(-n+22)::after{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    content: "x";
+    text-align: left;
+    font-size: small;
+}
