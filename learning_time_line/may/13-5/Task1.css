@@ -1,67 +1,55 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    width: 800px;
-    height: 500px;
-    margin: 20px auto;
-    background-color: #eee;
-    display: grid;
-}
-.container div{
-    background-color: aliceblue;
-    color: #eee;
-    padding: 20px;
-    font-weight: bold;
-    grid-template-columns: 400px 700px auto;
-    justify-content: space-around;
-}
-div.footer{
-    grid-column: 1/ span 2;
-    width: 800px;
-    text-align: center;
-    background-color: blue;
-    height: 50px;
-    align-self: end;
-}
-div.section1{
-    grid-column: 1 / span 2;
-    text-align: center;
-    background-color: chartreuse;
-    height: 50px;
-}
-div.section2{
-    background-color: #D5C9E2;
-    text-align: center;
-    height: 160px;
-}
-div.section3{
-    background-color: #B59F5F;
-    text-align: center;
-}
-div.main-content{
-    background-color: #495A2A;
-    text-align: center;
-    height: 160px;
-    
-}
-div.extra-content{
-    background-color: #A4B092;
-    text-align: center;
-    height: 100px;
-   
-   
-}
-div.related-images{
-    background-color: #2B81B6;
-    text-align: center;
-    grid-column: 1fr;
-    
-}
-div.related-post{
-    background-color: #C6487D;
+div{
+    color: white;
+    font-size: xx-large;
     text-align: center;
 }
 p{
-    text-size-adjust: 8px;
+    font-size: medium;
+}
+.box{
+    display: grid;
+    row-gap: 5px;
+    background-color: gainsboro;
+    border: solid 1px white;
+    border-radius: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 190px 190px 100px 50px;
+}
+.section1{
+    background-color: greenyellow;
+    height: 40px;
+    grid-column: 1 / -1;
+}
+.section2{
+    background-color: #05C9E2;
+}
+.maincontent{
+    background-color: burlywood;
+    margin-bottom: 7px;
+    height: 250px;
+}
+.content{
+    grid-column: 2 / -1;
+
+}
+.extracontent{
+    height: 120px;
+    background-color: #A48092;
+}
+.section3{
+    background-color: #495A2A;
+}
+.relatedimages{
+    background-color: #308186;
+    grid-row: 4;
+    grid-column: 1 / -2;
+}
+.relatedposts{
+    background-color: crimson;
+    grid-row: 4;
+}
+.footer{
+    background-color: #3867FC;
+    grid-row: 5;
+    grid-column: 1 / -1;
 }
