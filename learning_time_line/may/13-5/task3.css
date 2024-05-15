@@ -21,7 +21,7 @@ nav{
   color: white;
   text-align: center;
  /* grid-row: 2/5; */
- padding: 150px;
+ padding: 110px;
  background-color: #6BD46B;
  
 }
@@ -62,5 +62,6 @@ flex-direction: row;
 width: 50px;
 height: 120px;
 align-content: end;
-margin-left: 80px;
+margin-left: 120px;
+margin-top: 130px;
 }
