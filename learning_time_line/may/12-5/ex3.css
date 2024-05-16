@@ -1,41 +1,20 @@
 .container div{
-    padding: 5px;
-    display: inline-block;
+    display: flexbox;
+    width: 150px;
+    height: 150px;
+    padding: 70px ;
+    border: 3px solid green;
+    text-align: center;
+    
 }
-.container div::after{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: green;
-    content: "*";
-    text-align: left;
-    font-size: small;
-   
+table tr{
+    width: 2000px;
 }
-.container div:nth-child(n+4):nth-child(-n+6)::after{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
+tr:nth-child(even){
     background-color: blue;
-    content: "x";
-    text-align: left;
-    font-size: small;
+    
 }
-.container div:nth-child(n+5):nth-child(-n+24)::after{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    content: "x";
-    text-align: left;
-    font-size: small;
-}
-.container div:nth-child(n+22):nth-child(-n+22)::after{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
+tr:nth-child(odd){
     background-color: green;
-    content: "x";
-    text-align: left;
-    font-size: small;
+    
 }
