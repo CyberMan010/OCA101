@@ -11,6 +11,7 @@
   }
   #container div:nth-child(10n+1) {
     clear: left;
+    
   }
   #div1:hover ~ div:nth-child(1n) { background: yellow; }
   #div2:hover ~ div:nth-child(2n) { background: yellow; }
